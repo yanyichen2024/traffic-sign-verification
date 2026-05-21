@@ -4,6 +4,7 @@
 \usepackage{booktabs}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage{xurl}
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{placeins}
@@ -271,7 +272,7 @@ $\varepsilon$ & IBP & LP 松弛 & MILP & 平均时间(s) \\
 \section{实验说明}
 本文实验脚本默认支持 GTSRB 与 sklearn 的 digits 两种数据源。正文主结果基于 GTSRB 三类交通标志子集；digits 模式仅用于方法连通性验证。脚本已实现三个方法：IBP、LP 松弛和 MILP 精化，并输出每个样本的 margin 下界与 summary JSON。
 
-代码已开源至 \href{https://github.com/yanyichen2024/traffic-sign-verification}{https://github.com/yanyichen2024/traffic-sign-verification}。这里使用的是浏览器访问地址；若用命令行克隆，可使用 \texttt{git clone https://github.com/yanyichen2024/traffic-sign-verification.git}。
+代码已开源至 \url{https://github.com/yanyichen2024/traffic-sign-verification}。这里使用的是浏览器访问地址；若用命令行克隆，可使用 \texttt{git clone} 加仓库地址 \url{https://github.com/yanyichen2024/traffic-sign-verification.git}。
 
 输出文件包括三个 JSON 类记录文件和多张实验图像。\texttt{summary.json} 记录单组实验的总体结果，\texttt{rows.jsonl} 记录逐样本下界与认证状态，\texttt{sweep\_summary.json} 记录不同 $\varepsilon$ 下的 sweep 结果。图像文件对应正文中的认证率曲线、样本示意图、宽度对比图和代表性样本下界图。这些输出一方面支撑正文中的图表，另一方面也保证了结果的可追溯性：任何表格中的数值都可以回溯到具体的 JSON 或逐样本记录。
 
