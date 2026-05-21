@@ -1,0 +1,26 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Local datasets and large archives
+data/
+*.zip
+
+# Local build and visual inspection artifacts
+build/
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.xdv
+
+# Submission files with personal information
+CSMATH2026_*.pdf
+CSMATH2026_*.zip
+
+# Deprecated diagnostic figures not used by the final paper
+outputs/epsilon_gap_bar.png
+outputs/sample_status_heatmap.png
+outputs/per_method_certified_count.png

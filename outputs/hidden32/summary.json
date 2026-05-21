@@ -1,0 +1,15 @@
+{
+  "dataset": "gtsrb",
+  "classes": [
+    0,
+    1,
+    2
+  ],
+  "n_eval": 10,
+  "eps": 0.005,
+  "clean_accuracy": 0.9,
+  "ibp_certified_accuracy": 0.5,
+  "lp_certified_accuracy": 0.9,
+  "milp_certified_accuracy": 0.9,
+  "avg_verify_time_sec": 0.09671891228063031
+}

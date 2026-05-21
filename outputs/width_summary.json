@@ -1,0 +1,26 @@
+[
+  {
+    "hidden": 8,
+    "clean_accuracy": 0.9,
+    "ibp": 0.6,
+    "lp": 0.8,
+    "milp": 0.8,
+    "avg_time": 0.018701999983750283
+  },
+  {
+    "hidden": 16,
+    "clean_accuracy": 0.8,
+    "ibp": 0.6,
+    "lp": 0.7,
+    "milp": 0.7,
+    "avg_time": 0.023524891887791454
+  },
+  {
+    "hidden": 32,
+    "clean_accuracy": 0.9,
+    "ibp": 0.5,
+    "lp": 0.9,
+    "milp": 0.9,
+    "avg_time": 0.09671891228063031
+  }
+]
